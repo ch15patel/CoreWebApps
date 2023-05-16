@@ -1,0 +1,4 @@
+﻿// https://learn.microsoft.com/en-us/ef/core/cli/powershell#scaffold-dbcontext
+Scaffold-DbContext "Data Source=.;Initial Catalog=GWEMRUploadDB;Integrated Security=True;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\GWEMRUploadDBModel
+
+Scaffold-DbContext "Data Source=.;Initial Catalog=Northwind;Integrated Security=True;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\NorthwindModel -DataAnnotations

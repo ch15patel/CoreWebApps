@@ -1,5 +1,6 @@
 using System.Xml.Serialization;
 using EFCore.Models.NorthwindModel;
+using EFCore.Models.OracleHRModel;
 using Microsoft.EntityFrameworkCore;
 
 namespace CoreWebAppRazor
@@ -14,10 +15,10 @@ namespace CoreWebAppRazor
             builder.Services.AddRazorPages();
             // Add ConnectionStrings
             builder.Services.AddDbContext<NorthwindContext>(options =>
-            options.UseSqlServer(builder.Configuration.GetConnectionString("Northwind")));
+                options.UseSqlServer(builder.Configuration.GetConnectionString("Northwind")));
 
-            //builder.Services.AddDbContext<SchoolContext>(options =>
-            //options.UseSqlServer(builder.Configuration.GetConnectionString("SchoolContext")));
+            builder.Services.AddDbContext<OracleHrContext>(options =>
+                options.UseSqlServer(builder.Configuration.GetConnectionString("OracleHR")));
 
 
             WebApplication app = builder.Build();

@@ -1,4 +1,9 @@
 ﻿// https://learn.microsoft.com/en-us/ef/core/cli/powershell#scaffold-dbcontext
+//EMR Upload DB
 Scaffold-DbContext "Data Source=.;Initial Catalog=GWEMRUploadDB;Integrated Security=True;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\GWEMRUploadDBModel
 
-Scaffold-DbContext "Data Source=.;Initial Catalog=Northwind;Integrated Security=True;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\NorthwindModel -DataAnnotations
+//Northwind
+Scaffold-DbContext "Data Source=devwin11pro;Initial Catalog=Northwind;User Id=sa;Password=!Sa@dmin;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\NorthwindModel -DataAnnotations
+
+//OracleHR
+Scaffold-DbContext "Data Source=devsql01;Initial Catalog=OracleHR;User Id=sa;Password=!Sa@dmin;Encrypt=False" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models\OracleHRModel -DataAnnotations

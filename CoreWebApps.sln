@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoreWebAppRazor", "CoreWebAppRazor\CoreWebAppRazor.csproj", "{38E02697-A307-4675-BE42-7DB828867CA5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EFCore.Models", "EFCore.Models\EFCore.Models.csproj", "{5A5611F1-550B-4314-BBE9-8DEFA7246F69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EFCore.Models", "EFCore.Models\EFCore.Models.csproj", "{5A5611F1-550B-4314-BBE9-8DEFA7246F69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.NorthwindRazorApp", "WebApp.RazorAppWithEF7\WebApp.NorthwindRazorApp.csproj", "{3C662EF4-21D3-4DA0-BC29-702787EA05C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.OracleHRRazorApp", "WebApp.OracleHRRazorApp\WebApp.OracleHRRazorApp.csproj", "{D2FD0944-CDBD-4EEB-BFAA-EF7478F80419}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{5A5611F1-550B-4314-BBE9-8DEFA7246F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A5611F1-550B-4314-BBE9-8DEFA7246F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A5611F1-550B-4314-BBE9-8DEFA7246F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C662EF4-21D3-4DA0-BC29-702787EA05C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C662EF4-21D3-4DA0-BC29-702787EA05C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C662EF4-21D3-4DA0-BC29-702787EA05C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C662EF4-21D3-4DA0-BC29-702787EA05C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2FD0944-CDBD-4EEB-BFAA-EF7478F80419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2FD0944-CDBD-4EEB-BFAA-EF7478F80419}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2FD0944-CDBD-4EEB-BFAA-EF7478F80419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2FD0944-CDBD-4EEB-BFAA-EF7478F80419}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

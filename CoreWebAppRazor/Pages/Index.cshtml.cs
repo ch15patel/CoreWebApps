@@ -34,7 +34,7 @@ namespace CoreWebAppRazor.Pages
             return Content($"MyKey value: {myKeyValue} \n" +
                            $"Title: {title} \n" +
                            $"Name: {name} \n" +
-                           $"Emp Name: {emp2.FirstName} \n" +
+                           $"Emp Name: {emp1.FirstName} -- {emp2.FirstName} \n" +
                            $"Default Log Level: {defaultLogLevel}");
         }
     }
